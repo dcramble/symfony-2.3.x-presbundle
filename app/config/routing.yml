@@ -1,0 +1,4 @@
+mesd_example:
+    resource: "@MESDExampleBundle/Resources/config/routing.yml"
+    prefix:   /
+

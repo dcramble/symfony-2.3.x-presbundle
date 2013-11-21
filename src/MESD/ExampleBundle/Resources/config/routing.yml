@@ -1,0 +1,3 @@
+mesd_example_homepage:
+    pattern:  /
+    defaults: { _controller: MESDExampleBundle:Default:index }
