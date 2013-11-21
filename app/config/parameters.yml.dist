@@ -1,5 +1,5 @@
 parameters:
-    database_driver:   pdo_mysql
+    database_driver:   pdo_pgsql
     database_host:     127.0.0.1
     database_port:     ~
     database_name:     symfony
@@ -13,3 +13,15 @@ parameters:
 
     locale:            en
     secret:            ThisTokenIsNotSoSecretChangeIt
+
+    app_name: Symfony-Test
+    app_abbrev: ST
+    org_name: Multnomah Education Service District
+    org_abbrev: MESD
+    org_address: 11611 NE Ainsworth Cir | Portland, OR 97220
+    version: 2.7
+    build: 0
+
+    node_base_path:         /usr/bin/node
+    node_lib_path:          /usr/include/node
+    node_modules_path:      /lib/node_modules
