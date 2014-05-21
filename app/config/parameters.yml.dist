@@ -22,6 +22,26 @@ parameters:
     version: 2.7
     build: 0
 
+    app_name:           Sandbox
+    app_abbreviation:   Sandbox
+    app_description:    Sandbox
+    app_keywords:       Sandbox
+    app_url:            http://localhost/symfony-sandbox
+    app_version:        0.1
+    app_build:          1
+    app_release:        alpha
+    app_license_1:      mit
+    app_license_url_1:  http://opensource.org/licenses/MIT
+    app_license_2:      mit
+    app_license_url_2:  http://symfony.com/doc/current/contributing/code/license.html
+
+    org_name:           'Multnomah Education Service District'
+    org_abbreviation:   MESD
+    org_address:        '11611 NE Ainsworth Cir | Portland, OR 97220'
+    org_telephone:      503.257.1788
+    org_email:          appdev@mesd.k12.or.us
+    org_url:            http://appdev-confluence.mesd.k12.or.us:8090
+
     node_base_path:         /usr/bin/node
     node_lib_path:          /usr/include/node
     node_modules_path:      /lib/node_modules
