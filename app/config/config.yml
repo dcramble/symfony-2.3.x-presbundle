@@ -37,6 +37,7 @@ twig:
         app_license_1:     %app_license_1%
         app_license_url_1: %app_license_url_1%
         app_license_2:     %app_license_2%
+        app_license_url_2: %app_license_url_2%
         org_name:          %org_name%
         org_abbreviation:  %org_abbreviation%
         org_address:       %org_address%

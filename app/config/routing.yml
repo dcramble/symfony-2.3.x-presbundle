@@ -1,4 +1,3 @@
-mesd_example:
-    resource: "@MESDExampleBundle/Resources/config/routing.yml"
-    prefix:   /
-
+mesdPresentationBundle_demo:
+    prefix: /ui
+    resource: "@MesdPresentationBundle/Resources/config/routing.yml"
