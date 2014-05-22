@@ -14,14 +14,6 @@ parameters:
     locale:            en
     secret:            ThisTokenIsNotSoSecretChangeIt
 
-    app_name: Symfony-Test
-    app_abbrev: ST
-    org_name: Multnomah Education Service District
-    org_abbrev: MESD
-    org_address: 11611 NE Ainsworth Cir | Portland, OR 97220
-    version: 2.7
-    build: 0
-
     app_name:           Sandbox
     app_abbreviation:   Sandbox
     app_description:    Sandbox

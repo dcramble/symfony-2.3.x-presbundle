@@ -1,7 +1,6 @@
 imports:
     - { resource: parameters.yml }
     - { resource: security.yml }
-    - { resource: @MESDPresentationPresentationBundle/Resources/config/services.yml }
 
 framework:
     #esi:             ~
@@ -27,20 +26,31 @@ twig:
     debug:            %kernel.debug%
     strict_variables: %kernel.debug%
     globals:
-        app_name:    %app_name%
-        app_abbrev:  %app_abbrev%
-        org_name:    %org_name%
-        org_abbrev:  %org_abbrev%
-        org_address: %org_address%
-        version:     %version%
-        build:       %build%
+        app_name:          %app_name%
+        app_abbreviation:  %app_abbreviation%
+        app_description:   %app_description%
+        app_keywords:      %app_keywords%
+        app_url:           %app_url%
+        app_version:       %app_version%
+        app_build:         %app_build%
+        app_release:       %app_release%
+        app_license_1:     %app_license_1%
+        app_license_url_1: %app_license_url_1%
+        app_license_2:     %app_license_2%
+        org_name:          %org_name%
+        org_abbreviation:  %org_abbreviation%
+        org_address:       %org_address%
+        org_telephone:     %org_telephone%
+        org_email:         %org_email%
+        org_url:           %org_url%
+
 
 # Assetic Configuration
 assetic:
     debug:          %kernel.debug%
     use_controller: true
     bundles:
-        - MESDPresentationPresentationBundle
+        - MesdPresentationBundle
     filters:
         cssrewrite: ~
         cssembed:
